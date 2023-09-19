@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil Varonil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./brasil.png">
+</head>
+<body>
+    <main>
+        <form action="#" method="post">
+            <h1 class="titulo">Formulario</h1>
+            <div class="info">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="info">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="name">
+            </div>
+            <div class="info">
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="info">
+                <label for="interesses">Interesses:</label>
+                <select name="interesses" id="interesses">
+                    <option value="" selected hidden></option>
+                    <option value="1">Star Wars</option>
+                    <option value="2">Harry Potter</option>
+                    <option value="3">Cavalos</option>
+                </select>
+            </div>
+            <div class="info">
+                <label for="date">Data de nascimento:</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="info">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="info">
+                <label for="linkedin">Perfil do linkedin:</label>
+                <input type="url" name="linkedin" id="linkedin">
+            </div>
+            <div class="info">
+                <label for="cor">Cor Favorita:</label>
+                <input type="color" name="cor" id="cor">
+            </div>
+            <div class="info">
+                <label>Tem interesse em participar de um campeonato de truco?</label>
+                <label for="radio1"><input type="radio" name="radio" id="radio1" value="n">Sim</label>
+                <label for="radio2"><input type="radio" name="radio" id="radio2" value="s">Não</label>
+            </div>
+            <div class="info">
+                <label for="file">Escolha um arquivo:</label>
+                <input type="file" name="file" id="file">
+            </div>
+            <div class="info">
+                <label for="textarea">Descreva sua personalidade brevemente:</label>
+                <textarea name="textarea" id="textarea" rows="4"></textarea>
+            </div>
+            <div class="info">
+                <label for="range">O quão empolgado com esse cadastro você está?</label>
+                <div class="range">
+                <p>1</p>
+                <input type="range" name="range" id="range">
+                <p>10</p>
+            </div>
+            </div>
+            <div class="info">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
